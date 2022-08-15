@@ -7,7 +7,7 @@ Matlab apps to generate simple videos for imaging research articles.
 ![Screenshot](./assets/GenerateMoviePair1.jpg)
 
 ### Function
-Tile two movie side by side and add time stamps and legends (as many as we want). 
+Tile two movie side by side and add frame stamps (frame-index-dependent) and legends (as many as we want). 
 
 ### Installation
 Open Matlab and double click the __GenerateMoviePair.mlappinstall__ file. The app will be added to the _APPS_ Tab in Matlab. 
@@ -23,5 +23,5 @@ Open Matlab and double click the __GenerateMoviePair.mlappinstall__ file. The ap
 - Index Offset: The preview frame index will be the frame index in __Time__ slider added by this __Index Offset__.
 - Total frames: The total number of frames to be previewed and rendered.
 - Adjust image contrast: Adjust __Lower Clip__ and __Upper Clip__ to clip the lower and upper intensity and stretch the histogram.
-- Add time stamps: Choose one time stamps from the drop-down menu and edit its position __X__, __Y__ and __Size__. The Time Step has a unit as millisecond. Therefore the time stamp of a certain frame $i$ will be $i * Time Step$ ms.
-- Add legends: Similar to time stamps, except that the text box defines the string to show as it is.  
+- Frame Stamps: Choose one frame stamps from the drop-down menu and edit its position __X__, __Y__, __Size__, __Step__ and __Unit__. The frame stamp of a certain frame $i$ will be $i * Step$ with the unit defined by __Unit__.
+- Legends: Similar to frame stamps, except that the text box defines the string to show as it is.  
