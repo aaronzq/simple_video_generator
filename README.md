@@ -12,12 +12,23 @@ Tile two movie side by side or place single movie. Add frame stamps (frame-depen
 Can be used for __hyperspectral imaging data__, __time imaging data__, __z scanning data__ visualization. 
 
 ####  Time lapse data
+Comparison on video quality between methods.
 
 ![time lapse demo](./assets/time_lapse_demo.gif)
 
 ####  Hyperspectral data
+Scan through different wavelength with pseudo-color.
 
-![](./assets/hyperspectral_demo.gif)
+![hyperspectral demo](./assets/hyperspectral_demo.gif)
+
+Credit: USAF Target using CASSI by Ruixuan Zhao 
+
+#### 3D data
+Scan through different layer of 3D sample with pseudo-color.
+
+![3D demo](./assets/depth_image_demo.gif)
+
+Credit: Mouse retina using light sheet microscope by Yaran Zhang 
 
 ### Installation
 ** __Requires MATLAB 2020 or higher__ ** 
