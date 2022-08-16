@@ -11,7 +11,17 @@ Tile two movie side by side or place single movie. Add frame stamps (frame-depen
 
 Can be used for __hyperspectral imaging data__, __time imaging data__, __z scanning data__ visualization. 
 
+####  Time lapse data
+
+![time lapse demo](./assets/time_lapse_demo.gif)
+
+####  Hyperspectral data
+
+![](./assets/hyperspectral_demo.gif)
+
 ### Installation
+** __Requires MATLAB 2020 or higher__ ** 
+
 Open Matlab and double click the __GenerateMoviePair.mlappinstall__ file. The app will be added to the _APPS_ Tab in Matlab. 
 
 ### Usage
